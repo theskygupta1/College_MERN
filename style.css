@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/2059891.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightblue;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(255, 221, 221);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align:center;
+}
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    cursor: pointer;
+    background-color: #B3140A;
+    color: white;
+}
+button:hover {
+    background-color: #36061d;
+}
+.work-list {
+    list-style-type: none;
+    padding: 0;
+}
+.work-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+.btn-delete, .btn-warning {
+    margin-left: 10px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
