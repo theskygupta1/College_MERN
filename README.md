@@ -1,3 +1,1 @@
-﻿echo
-# College_MERN
 
